@@ -34,8 +34,7 @@ export { firebaseConfig };
 
 # To run this project:
 
-```
-cd react-native-app
+``
 npm install
 npm install react-native
 npm start (expo start)
