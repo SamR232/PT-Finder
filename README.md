@@ -1,6 +1,15 @@
 # PT-Finder
 
-This project uses Firebase database and Firebase authentication. It requires a firebase.config.js file creating within the src folder with the relevant information provided by Firestore added to the following:
+This app was created to connect Personal trainers with fitness enthusiats, through an easy to use mobile platform. It was built using React-Native and Expo.
+
+
+# Installing and running this project
+
+This project uses Firebase database and Firebase authentication.
+
+# Creating a Firebase project
+In order to run this app, you will need to create a Firebase project and a Cloud Firestore database to go along with it. Follow the instructions in the following documentation to get started: https://firebase.google.com/docs/firestore/quickstart
+
 
 # Create a firebase.config.js
 
@@ -16,6 +25,8 @@ appId: "",
 
 
 // Initialize Firebase
+import { initializeApp } from 'firebase/app';
+
 const app = initializeApp(firebaseConfig);
 
 export { firebaseConfig };
